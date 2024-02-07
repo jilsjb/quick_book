@@ -1,0 +1,28 @@
+{
+  "name": "quickbook_api",
+  "version": "1.0.0",
+  "description": "api for booking engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jilsjb/quick_book.git"
+  },
+  "keywords": [
+    "quick",
+    "book",
+    "api"
+  ],
+  "author": "jils",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jilsjb/quick_book/issues"
+  },
+  "homepage": "https://github.com/jilsjb/quick_book#readme",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
