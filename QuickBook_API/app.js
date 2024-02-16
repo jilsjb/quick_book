@@ -1,19 +1,14 @@
 const express = require('express');
-
 const app = express();
+const flightRouter = require('./routes/flight');
 
-const port = 3000;
-
-app.listen(port, () => {
-  console.log('started');
-})
+//Methods
 
 
-app.get('/', (req, res) => {
-  res
-  .json({
-    'name': 'jils',
-    'age': '31'
-  })
-  .status(200)
-})
+//Routes
+
+
+// Mounting
+app.use('/api/v1/flight', flightRouter);
+
+module.exports = app;
